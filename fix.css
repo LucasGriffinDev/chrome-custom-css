@@ -1,0 +1,13 @@
+/* Override the toolbar gutter behavior */
+.MuiToolbar-root {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Optional: if you want to highlight that it worked */
+.MuiToolbar-root::after {
+    content: '✓ Gutter Fix Applied';
+    color: limegreen;
+    font-size: 12px;
+    margin-left: 12px;
+}
