@@ -7,7 +7,7 @@
 /* Optional: if you want to highlight that it worked */
 .MuiToolbar-root::after {
     content: '✓ Gutter Fix Applied';
-    color: limegreen;
+    color: purple;
     font-size: 12px;
     margin-left: 12px;
 }
