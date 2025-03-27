@@ -1,18 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "chrome-custom-css",
-  "version": "1.0",
-  "description": "Overrides MUI toolbar padding on Geo apps to fix visual alignment.",
-  "content_scripts": [
-    {
-      "matches": [
-        "https://geocreation.com.au/*",
-        "https://demoapp.geocreation.com.au/*",
-        "https://app.geocreation.com.au/*"
-      ],
-      "js": ["content.js"],
-      "css": ["fix.css"],
-      "run_at": "document_idle"
-    }
-  ]
+  "name": "Geo UI Fixer",
+  "version": "1.1",
+  "description": "Toggle gutter fix and dark mode for Geo",
+  "permissions": ["scripting", "storage", "tabs"],
+  "host_permissions": [
+    "https://geocreation.com.au/*",
+    "https://demoapp.geocreation.com.au/*",
+    "https://app.geocreation.com.au/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Geo UI Fixer"
+  },
+  "background": {
+    "service_worker": "content.js"
+  }
 }

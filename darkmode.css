@@ -1,0 +1,76 @@
+/*Dark mode*/
+/* Global background + text colors */
+body, .MuiPaper-root, .MuiDrawer-paper, .MuiAppBar-root, .MuiTableCell-root, .MuiTableCell-head, .MuiInputBase-input, .MuiButtonBase-root {
+    background-color: #2c2c2c !important;
+    color: #ffffff !important;
+}
+
+/* Base button label color */
+.MuiButton-label {
+    color: #ffffff !important;
+}
+
+/* Contained (filled) buttons */
+.MuiButton-contained {
+    color: #fff !important;
+}
+
+.MuiButton-contained:hover {
+    background-color: #444 !important;
+}
+
+/* Outlined buttons */
+.MuiButton-outlined {
+    border-color: #888 !important;
+    color: #fff !important;
+}
+
+.MuiButton-outlined:hover {
+    border-color: #aaa !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Text buttons (no background) */
+.MuiButton-text {
+    color: #ffffff !important;
+}
+
+.MuiButton-text:hover {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Remove the bright blue focus ring */
+.MuiInputBase-root.Mui-focused fieldset,
+.MuiOutlinedInput-notchedOutline {
+    border-color: #555 !important;
+    color: #ffffff !important;
+}
+
+/* Lists / cards / containers */
+.MuiList-root,
+.MuiCard-root,
+.MuiToolbar-root,
+.MuiPaper-root {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* List items hover/focus */
+.MuiListItem-root:hover {
+    background-color: #2c2c2c !important;
+}
+
+/* Typography overrides (optional) */
+.MuiTypography-root {
+    color: #f5f5f5 !important;
+}
+
+/* Fix icon contrast */
+svg, .MuiSvgIcon-root {
+    color: #ffffff !important;
+}
+
+/* Optional: add dark border */
+hr, .MuiDivider-root {
+    border-color: #333 !important;
+}
