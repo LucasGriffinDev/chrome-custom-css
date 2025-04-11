@@ -46,13 +46,29 @@ body, .MuiPaper-root, .MuiDrawer-paper, .MuiAppBar-root, .MuiTableCell-root, .Mu
     color: #ffffff !important;
 }
 
+.link-btn {
+    background-color: #3c2c2c !important;
+    border-color: #888 !important;
+}
+
 /* Lists / cards / containers */
 .MuiList-root,
 .MuiCard-root,
 .MuiToolbar-root,
+.jss44,
+.jss35,
+.jss29,
+.positioner,
+.title-header--controls,
+.MuiGrid-root,
+.has-icon-left,
+.side-bar,
 .MuiPaper-root {
     background-color: #1e1e1e !important;
     color: #e0e0e0 !important;
+}
+h2 {
+    color: #ffffff !important;
 }
 
 /* List items hover/focus */
