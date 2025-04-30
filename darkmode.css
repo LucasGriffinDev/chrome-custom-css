@@ -63,6 +63,22 @@ body, .MuiPaper-root, .MuiDrawer-paper, .MuiAppBar-root, .MuiTableCell-root, .Mu
 .MuiGrid-root,
 .has-icon-left,
 .side-bar,
+.title-header,
+.top-bar,
+.plain-list,
+.color-coded-requiresaction,
+.search,
+.color-coded-readytoissue,
+.color-coded-issued,
+.queue-panel--header,
+.greater-than-zero,
+.aggregations,
+.queue-panel,
+.jss71,
+.side-controls,
+.search-content,
+.btn-small,
+#a,
 .MuiPaper-root {
     background-color: #1e1e1e !important;
     color: #e0e0e0 !important;
