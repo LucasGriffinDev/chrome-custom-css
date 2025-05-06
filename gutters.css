@@ -4,8 +4,8 @@
 }
 
 .MuiToolbar-root::after {
-    content: '✓ Gutter Fix Applied';
+    content: '🚀 🔧 🌏';
     color: purple;
-    font-size: 12px;
+    font-size: 2rem;
     margin-left: 12px;
 }
